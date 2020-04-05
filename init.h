@@ -1,0 +1,15 @@
+int init_from_file(double *a, int n, int m, int l, int k, char *filename);
+int read_string(FILE *fp, double *buf, int n);
+int init_from_file_0(double *a, int n, int m, int l, int k, char *filename);
+int init_from_file_others(double *a, int n, int m, int l, int k);
+void init_by_formula(double *a, int n, int m, int l, int k);
+void init_diag(double *a, int n, int m, int l, int k);
+double f_(int i, int j, int n);
+void print_matrix(double *a, int m, int l, int real);
+void print_one(double *a, int n, int m, int max_cols);
+void print_matrix(double *a, int n, int m, int l, int k);
+void print_matrix_0(double *a, int n, int m, int l, int k);
+void print_matrix_others(double *a, int n, int m, int l, int k);
+void print_matrix_1(double *a, int n, int m, int l, int k);
+void print_matrix_0_1(double *a, int n, int m, int l, int k);
+void print_matrix_others_1(double *a, int n, int m, int l, int k);
